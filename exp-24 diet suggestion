@@ -1,0 +1,27 @@
+diet_suggestion(diabetes) :-
+    write('Diet for Diabetes:'),
+    nl,
+    write('1. Consume complex carbohydrates such as whole grains, brown rice, and oats.'),
+    nl,
+    write('2. Include lean proteins like chicken, fish, and tofu.'),
+    nl,
+    write('3. Limit your intake of sugary foods and beverages.'),
+    nl.
+diet_suggestion(high_blood_pressure) :-
+    write('Diet for High Blood Pressure:'),
+    nl,
+    write('1. Reduce sodium (salt) intake.'),
+    nl,
+    write('2. Consume potassium-rich foods like bananas and oranges.'),
+    nl,
+    write('3. Eat plenty of fruits and vegetables.'),
+    nl.
+diet_suggestion(obesity) :-
+    write('Diet for Obesity:'),
+    nl,
+    write('1. Control portion sizes and calorie intake.'),
+    nl,
+    write('2. Focus on a balanced diet with fruits, vegetables, and whole grains.'),
+    nl,
+    write('3. Engage in regular physical activity.'),
+    nl.
